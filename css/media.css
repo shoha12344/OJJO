@@ -1,0 +1,47 @@
+@media (max-width: 991px) {
+    .menu__btn{
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    .navbar-toggler{
+        border-color: #fff !important; 
+    }
+    
+    .navbar-brand , .navbar-toggler{
+        order: -1;
+    }
+    
+    .header__nav-icons{
+        margin-left: 0;
+    }
+    
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    
+    .header__nav-link{
+        font-size: 16px;
+    }
+    
+    .header__nav{
+        background: #ffffff57;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .del_line{
+        border-right: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .hide_line{
+        display: none;
+    }
+    .del_line{
+        display: none;
+    }
+}
+
